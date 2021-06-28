@@ -31,7 +31,7 @@ pc = col-pc
 <?php
 /*генератор стилей*/
 $mas_rand_tag=['red','blue','test','kek','col-xl','col-sms-20'];
-$mas_chisla=[10,20,30,40,50,60,70,80,90,100];
+$mas_chisla=[10,20,30,40,50,60,70,80,90];
 
 for ($i=0;$i<=10;$i+=1){
 	$l=$mas_chisla[rand(0,count($mas_chisla)-1)];
